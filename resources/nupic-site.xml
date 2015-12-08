@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+<property>
+  <name>nupic.cluster.database.passwd</name>
+  <value>1234</value>
+  <description>Password for the MySQL database server </description>
+</property>
+
+</configuration>

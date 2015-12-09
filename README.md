@@ -8,14 +8,14 @@ This is a small experiment to make a reproducible vagrant box containing a  NuPI
 - Virtualbox
 
 ##Installation
+to install the vagrant box for the first time  
     ```
     vagrant up
     ```  
-to install the vagrant box for the first time  
+to ssh into the vagrant box  
     ```
     vagrant ssh
     ```  
-to ssh into the vagrant box  
 
 ##Usage  
 Booting up and entering the box:  

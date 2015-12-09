@@ -4,13 +4,6 @@ echo "Provisioning virtual machine..."
     add-apt-repository ppa:ubuntu-toolchain-r/test
     apt-get update
 
-# echo "copying project files and changing owner to vagrant user"
-# mkdir -p /home/vagrant/nupic
-# mkdir -p /home/vagrant/nupic.examples
-
-# cp -R /vagrant/resources/nupic /home/vagrant
-# cp -R /vagrant/resources/nupic.examples /home/vagrant
-
 echo "Installing Git"
 apt-get install git -y
 

@@ -1,16 +1,16 @@
 #NuPIC Box
-This is a small experiment to make a reproducible vagrant box containing a  NuPIC installation. It clones the following repositories:
-https://github.com/numenta/nupic/
-https://github.com/rhyolight/nupic.examples
+This is a small experiment to make a reproducible vagrant box containing a  NuPIC installation. It clones the following repositories:  
+- https://github.com/numenta/nupic/
+- https://github.com/rhyolight/nupic.examples
 
 ##Requirements  
 - Vagrant
 - Virtualbox
 
 ##Installation
-    vagrant up
+    vagrant up  
 to install the vagrant box for the first time  
-    vagrant ssh
+    vagrant ssh  
 to ssh into the vagrant box  
 
 ##Usage  
@@ -26,5 +26,5 @@ shutting down the box from the host machine:
 
 ##Removal  
 Simply run the following command in the repository directory:  
-    vagrant destroy --force
+    vagrant destroy --force  
 This will remove the NuPIC Box from your host machine.  

@@ -3,8 +3,6 @@ echo "Getting pip"
 python get-pip.py --user
 
 echo "export PATH=$PATH:$HOME/.local/bin" >> /home/vagrant/.profile
-echo "export CC=gcc" >> /home/vagrant/.profile
-echo "export CXX=g++" >> /home/vagrant/.profile
 
 source /home/vagrant/.profile
 
